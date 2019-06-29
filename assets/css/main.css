@@ -87,6 +87,9 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+.img {
+}
+
 
 	}
 
@@ -3340,7 +3343,8 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3em;
+    padding: 3em;
+    right: 184px;
 			}
 
 		}
@@ -3412,12 +3416,13 @@ input, select, textarea {
 /* Intro */
 
 	#intro .logo {
-		border-bottom: 0;
-		display: inline-block;
-		margin: 0 0 1em 0;
-		overflow: hidden;
-		position: relative;
-		width: 4em;
+    border-bottom: 0;
+    display: inline-block;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+    position: relative;
+    width: 4em;
+    background-image: url(images/65433872_700836590366247_2138327838581850112_n.jpg);
 	}
 
 		#intro .logo:before {
@@ -3446,8 +3451,13 @@ input, select, textarea {
 	}
 
 	#intro header p {
-		font-size: 0.8em;
+    font-size: 0.8em;
+    font-weight: 400;
 	}
+#intro header p {
+    color: #4A4747;
+}
+
 
 	@media screen and (max-width: 1280px) {
 
